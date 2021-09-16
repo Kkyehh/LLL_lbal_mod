@@ -7,7 +7,7 @@ func init(modloader: Reference, params):
     self.rarity = "very_rare"
     self.groups = []
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Black_Hole.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Black_Hole.png")
     self.name = "Black Hole"
     self.description = "Adjacent symbols are adjacent to only this symbol and all of this symbol's adjacent symbols."
 

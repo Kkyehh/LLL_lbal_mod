@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.groups = ["human", "organism", "doglikes", "raritymod"]
     self.sfx = ["jump"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Leprechaun.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Leprechaun.png")
     self.name = "Leprechaun"
     self.description = "<color_E14A68>Destroys<end> adjacent <all_and_gold>. Gives <color_E14A68><value_1>x<end> the value of <color_E14A68>destroyed<end> symbols. For each symbol <color_E14A68>destroyed<end>, you are <color_E14A68>1.1x<end> more likely to find <color_38769a>Uncommon<end>, <color_f8f87b>Rare<end>, and <color_4a1369>Very Rare<end> symbols."
 

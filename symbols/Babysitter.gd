@@ -8,10 +8,10 @@ func init(modloader: Reference, params):
     self.rarity = "rare"
     self.groups = ["human", "organism", "doglikes"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Babysitter.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Babysitter.png")
     self.name = "Babysitter"
     self.description = "Adjacent <icon_toddler> give <color_E14A68>2x<end> more <icon_coin> and are considered adjacent to all symbols."
-    self.modifies_adjacent_adjacency = true
+    #self.modifies_adjacent_adjacency = true
     
 func add_conditional_effects(symbol, adjacent):
     for i in adjacent:

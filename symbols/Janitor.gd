@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.groups = ["human", "organism", "doglikes"]
     self.sfx = ["farmer"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Janitor.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Janitor.png")
     self.name = "Janitor"
     self.description = "<color_E14A68>Destroys<end> adjacent <icon_banana_peel>. Gives <icon_coin><color_FBF236><value_1><end> for each <icon_banana_peel> <color_E14A68>destroyed<end>."
 	

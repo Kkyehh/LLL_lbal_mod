@@ -1,4 +1,4 @@
-extends "res://yeah-symbols/symbols/AbstractSym.gd"
+extends "res://modloader/ModSymbol.gd"
 
 func init(modloader: Reference, params):
     self.modloader = modloader
@@ -10,7 +10,7 @@ func init(modloader: Reference, params):
     self.groups = ["organism"]
     self.sfx = ["guillotine"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Grim_Reaper.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Grim_Reaper.png")
     self.name = "Grim Reaper"
     self.description = "<color_E14A68>Destroys<end> adjacent <all_and_dead>. Gives <color_E14A68><value_1>x<end> the value of <color_E14A68>destroyed<end> symbols. Permanently gives <icon_coin><color_FBF236><value_2><end> more for each symbol <color_E14A68>destroyed<end>."
 

@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.groups = ["organism", "human", "doglikes"]
     self.sfx = ["hex"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Cult_Leader.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Cult_Leader.png")
     self.name = "Cult Leader"
     self.description = "Adjacent <all_and_human> are <color_E14A68>transformed<end> into <icon_cultist>. Gives <icon_coin><color_FBF236><value_1><end> more for <color_E14A68>each<end> adjacent <icon_cultist>."
 

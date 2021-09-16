@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.groups = ["animal", "organism", "farmerlikes", "spawner0"]
     self.sfx = ["jump", "beam"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Goat.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Goat.png")
     self.name = "Goat"
     self.description = "Has a <color_E14A68><value_1>%<end> chance of <color_E14A68>adding<end> <icon_milk>. Adjacent <all_and_hex> give <icon_coin><color_FBF236><value_2><end> more."
 	

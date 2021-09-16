@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.groups = ["human", "organism", "doglikes"]
     self.sfx = ["spirit", "ding"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Shrine_Maiden.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Shrine_Maiden.png")
     self.name = "Shrine Maiden"
     self.description = "<color_E14A68>Adds<end> <icon_spirit> every <color_E14A68><value_1><end> spins. Adjacent <icon_spirit> give <color_E14A68><value_2>x<end> more <icon_coin> and must give <icon_coin> <color_E14A68><value_3><end> more times to be <color_E14A68>destroyed<end>."
 	

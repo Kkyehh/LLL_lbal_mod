@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.findable = false
     self.sfx = ["guillotine"]
     
-    self.texture = load_texture("res://yeah-symbols/symbols/Pomegranate_Seed.png")
+    self.texture = load_texture("res://LLL_lbal_mod/symbols/Pomegranate_Seed.png")
     self.name = "Pomegranate Seed"
 
     
