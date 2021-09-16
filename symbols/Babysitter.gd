@@ -17,8 +17,9 @@ func add_conditional_effects(symbol, adjacent):
     for i in adjacent:
         symbol.add_effect_for_symbol(i, effect().if_type("toddler").change_value_multiplier(values[0]).animate("bounce", 0, [symbol, i]))
 
-func modify_adjacent_adjacency(currently_adjacent, symbol_grid):
+"""func modify_adjacent_adjacency(currently_adjacent, symbol_grid):
     for i in currently_adjacent:
-        return symbol_grid
+        if (symbol_type == "toddler"):
+            return symbol_grid"""
 
 #func modify_adjacent_adjacency(myself, grid_position, currently_adjacent, symbol_grid):

@@ -1,8 +1,8 @@
 {
-    "id": "yeah-symbols",
+    "id": "LLL_lbal_mod",
     "version": "1.0.0",
     "authors": ["Kkyehh"],
-    "name": "yeah symbols",
+    "name": "LLL",
     "description": "WIP",
     "dependencies": [],
     "load-after": []
