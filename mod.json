@@ -1,0 +1,9 @@
+{
+    "id": "yeah-symbols",
+    "version": "1.0.0",
+    "authors": ["Kkyehh"],
+    "name": "yeah symbols",
+    "description": "WIP",
+    "dependencies": [],
+    "load-after": []
+}
