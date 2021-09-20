@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "authors": ["Kkyehh"],
     "name": "LLL",
-    "description": "WIP",
-    "dependencies": [],
+    "description": "A mod for Luck Be a Landlord.",
+    "dependencies": ["effects-builder-plugin"],
     "load-after": []
 }
