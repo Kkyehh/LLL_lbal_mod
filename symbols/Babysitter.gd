@@ -18,7 +18,12 @@ func init(modloader: Reference, params):
     self.buffs.push_back(buff().set_type("toddler").set_value(values[0]).animate("bounce", 0))
     self.buffs.push_back(buff().set_target({
         "self" : {}
-    }).set_buff_type("temporary_bonus").set_value(values[1]))
+    }).add_condition({
+        "condition" : "symbol_count",
+        "type" : "toddler",
+        "operator" : "at_least",
+        "value" : 1
+    }).set_buff_type("temporary_bonus").set_value(0))
 
 func add_conditional_effects(symbol, adjacent):
     buffs[1].set_value(count_symbols("reels", {"type" : "toddler"}))
