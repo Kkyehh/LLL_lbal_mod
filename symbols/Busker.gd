@@ -10,7 +10,7 @@ func init(modloader: Reference, params):
     
     self.texture = load_texture("res://LLL_lbal_mod/symbols/Busker.png")
     self.name = "Busker"
-    self.description = "Gives <icon_coin><color_FBF236><value_1><end> more for each adjacent <all_and_human>."
+    self.description = "Gives <icon_coin><color_FBF236><value_1><end> more for <color_E14A68>each<end> adjacent <all_and_human>."
 	
 func add_conditional_effects(symbol, adjacent):
     for i in adjacent:
