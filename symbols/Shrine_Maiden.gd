@@ -22,5 +22,5 @@ func add_conditional_effects(symbol, adjacent):
         symbol.add_effect(effect().add_symbol_type("spirit").animate("shake", 0))
 
     for i in adjacent:
-        symbol.add_effect_for_symbol(i, effect().if_type("spirit").add_to_value("times_coins_given", 0 - values[2]).animate("circle", 1, [symbol, i]))
+        symbol.add_effect_for_symbol(i, effect().if_type("spirit").add_to_value("times_coins_given", -values[2]).animate("circle", 1, [symbol, i]))
         symbol.add_effect_for_symbol(i, effect().if_type("spirit").change_value_multiplier(values[1]))
