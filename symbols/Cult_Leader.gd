@@ -3,8 +3,8 @@ func init(modloader: Reference, params):
     self.modloader = modloader
     
     self.id = "cult_leader"
-    self.value = 2
-    self.values = [1]
+    self.value = 1
+    self.values = [2]
     self.rarity = "very_rare"
     self.groups = ["organism", "human", "doglikes"]
     self.sfx = ["hex"]
